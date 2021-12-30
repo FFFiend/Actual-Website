@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Owais' Site.</title>
-        <link rel="stylesheet" href="css/based.css">
-        <script src = "interac.js"></script>
+        <title>FIEND'S WEBSITE</title>
+        <link rel="stylesheet" href="/Users/owaiszahid/Desktop/PERSWEBSITE/css/based.css">
+        <script src = "/Users/owaiszahid/Desktop/PERSWEBSITE/k.js"></script>
     </head>
     <body>
 
+        <div ALIGN=RIGHT class = "slider">
+            Textcolor: <input type = "text" id="box" value = "rgb(255,255,255)"> <br>
+            Red: <input type="range" id="red" value="255" min="0" max="255"> <br>
+            Green: <input type="range" id="green" value="255" min="0" max="255"> <br>
+            Blue: <input type="range" id="blue" value="255" min="0" max="255">
+        
+        </div>
+
+        <script>
+            document.getElementById('red').addEventListener('input',txtColor);
+            document.getElementById('green').addEventListener('input',txtColor);
+            document.getElementById('blue').addEventListener('input',txtColor);
+        </script>
         <center><h1>Welcome !</h1></center>
         <br>
         <br>
@@ -14,6 +27,7 @@
                     and contact information. This is an early iteration of my website. <br>
                     Expect regular updates. </p>
         </center>
+
         <br>
         <br>
             <section>
@@ -32,6 +46,6 @@
             <section >
                 <h1 ALIGN=CENTER> Contact me</h1>
             </section>
-        
+       
     </body>
 </html>
