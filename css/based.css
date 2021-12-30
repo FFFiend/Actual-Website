@@ -3,7 +3,8 @@
     padding: 0;
     background-color: rgba(0, 0, 0, 1.0);
     font-family: 'Courier New', monospace;
-    color: rgb(248,248,255);
+    /* color is the variable i have to change, because it's literally
+    the color of the text */
 }
 
 
@@ -18,3 +19,46 @@ section {
     justify-content: center;
     
 }
+
+.slider #box{
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    color: white;
+
+}
+.slider #red {
+    background:linear-gradient(90deg, #000, red);
+
+
+}
+
+.slider #green {
+    background:linear-gradient(90deg, #000, green);
+    
+
+}
+
+.slider #blue {
+    background:linear-gradient(90deg, #000, blue);
+    
+
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    border: solid;
+    border-width: 1px;
+    color: white;
+
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height:10px;
+    width:10px;
+    background:white;
+    cursor: pointer;
+
+}
+
