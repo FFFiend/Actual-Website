@@ -14,7 +14,7 @@ function txtColor(){
     var red = document.getElementById('red').value;
     var green = document.getElementById('green').value;
     var blue = document.getElementById('blue').value;
-    var c = 'rgb('+ red +','+ blue +','+ green +')';
+    var c = 'rgb('+ red +','+ green +','+ blue +')';
     document.body.style.color= c;
     document.getElementById('box').value = c;
 }
