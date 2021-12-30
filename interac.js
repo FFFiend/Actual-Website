@@ -1,7 +1,8 @@
-let b = new Date();
-if (b.getDay() % 2 == 0){
-    alert('Today is an even day')
+let f = new Date();
+let b = 6 - f.getDay();
+if (b > 1){
+    alert('Only ' + b + ' days to the weekend! :D')
 }
-else{
-    alert('Today is not an even day')
+else {
+    alert('Only ' + b + ' day to the weekend! :D')
 }
