@@ -7,7 +7,7 @@ else if (b == 1) {
     alert('Only ' + b + ' day to the weekend! :D')
 }
 else {
-    alert('It"\'"s the weekend!' )
+    alert('It\'s the weekend!' )
 }
 
 function txtColor(){
