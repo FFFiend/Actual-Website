@@ -1,6 +1,6 @@
 let f = new Date();
 let b = 6 - f.getDay();
-if (1<b<5){
+if (b>1 && b<5){
     alert('Only ' + b + ' days to the weekend! :D')
 }
 else if (b == 1) {
